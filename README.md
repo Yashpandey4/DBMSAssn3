@@ -13,8 +13,7 @@
 
 ## Required Files for Submission <a name="copy"></a>
 
-The following files should be present inside your submission zip. Don't put these files in another subdirectory inside your `entry_numbers.zip`, keep it in that folder.
-
+The following files should be present inside your submission zip. Don't put these files in another subdirectory inside your `entry_numbers` directory.
 1. Makefile
 2. Assignment `*.cpp` and `*.h` files
 

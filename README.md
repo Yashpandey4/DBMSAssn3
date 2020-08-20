@@ -40,8 +40,8 @@ This script executes the rtree file with the following format -
 ```./rtree query.txt maxCap dimensionality output.txt```  
 Things to note here -  
 
-- `query.txt` represents the **absolute path** of the query file and NOT the relative path. The query files are stored at a central location and the same will be used to run your files.
-- Please ensure you dont make any assumptions about the path of the query or the output files in your code and always work with adsolute paths.
+- `query.txt` represents the **absolute path** of the query file and NOT the relative path. The query files are stored at a central location and the same will be used to run your code.
+- Please ensure you dont make any assumptions about the path of the query or the output files in your code and always work with absolute paths.
 - If the file doesn't execute within 10 minutes, execution will be stopped for that Test Case.
 
 ### Evaluation
@@ -64,5 +64,5 @@ An eval script will checks output files with the correct output files and assign
 ## TL;DR Takeaways <a name="tldr"></a>
 
 - Ensure running `make` in assignment submission directory generates `rtee` after copying the requisite files.
-- The paths you send as argument to `./rtree query.txt maxCap dimensionality output.txt` are **absolute paths**
+- Ensure that the paths you send as argument to `./rtree query.txt maxCap dimensionality output.txt` are **absolute paths**
 - Purposefully Randomising or Uniformly Outputting TRUE/FALSE values in output files will be awarded with a 0.

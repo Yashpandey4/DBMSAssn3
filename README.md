@@ -56,7 +56,7 @@ An eval script will checks output files with the correct output files and assign
 - Your rtee file will be tested using 10 test cases whose parameters are already available in `run_all.sh`
 - `maxCap` is between 5 and 100 and `dimensionality` is between 2 and 10. The exact parameters used for testing are already provided in `run_all.sh`
 - Run the script files by `chmod 777 script.sh` followed by `./script.sh`
-- Leave a single line gap between subsequent statements in the output files generated
+- Leave a two line gap between subsequent statements in the output files generated
 - The testcases will be executed on Ubuntu 18.04 (x64 machine)
 - Failure in adhering to the above submission guidelines would result in a penalty, the magnitude of which will be decided later
 - Any cases of plagiarism (included "borrowing" assignment from AGP students or previous years) will be dealt with as per institute policy.
